@@ -121,9 +121,16 @@ The immediate objective is to establish the multi-tenant foundation and build a 
 
 The project will be developed incrementally, with an emphasis on maintainable architecture, security, reliability and clear API contracts.
 
+
 ## Intended Outcome
 
-A developer should eventually be able to integrate DOCUFLOW into an existing application, provide structured business data and invoke an API to generate and manage documents without implementing the underlying document infrastructure themselves.
+DOCUFLOW is designed to operate as a cloud-hosted, multi-tenant document infrastructure service.
+
+Developers integrate DOCUFLOW into their existing applications through REST APIs and SDKs. Once integrated, their applications can submit structured business data and invoke document generation, issuance, storage, delivery and verification services without having to build or maintain the underlying infrastructure.
+
+Each subscribing organisation manages its own tenant configuration, document types, templates and workflows through the DOCUFLOW dashboard or APIs.
+
+DOCUFLOW centrally operates the document infrastructure while maintaining strict isolation between tenants.
 
 **Build once. Integrate anywhere. Manage documents throughout their lifecycle.**
 
